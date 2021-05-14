@@ -16,35 +16,35 @@ $EndDescr
 $Comp
 L conn:Conn_01x06_Female J1
 U 1 1 609ABD6A
-P 2400 2850
-F 0 "J1" H 2292 3235 50  0000 C CNN
-F 1 "ESP-M2" H 2292 3144 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal" H 2400 2850 50  0001 C CNN
-F 3 "~" H 2400 2850 50  0001 C CNN
-	1    2400 2850
-	-1   0    0    -1  
+P 2400 2950
+F 0 "J1" H 2292 3335 50  0000 C CNN
+F 1 "ESP-M2" H 2292 3244 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal" H 2400 2950 50  0001 C CNN
+F 3 "~" H 2400 2950 50  0001 C CNN
+	1    2400 2950
+	-1   0    0    1   
 $EndComp
 $Comp
 L conn:Conn_01x06_Female J2
 U 1 1 609AE72F
-P 4450 2850
-F 0 "J2" H 4250 3250 50  0000 L CNN
-F 1 "USB_Ser" H 4150 3150 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal" H 4450 2850 50  0001 C CNN
-F 3 "~" H 4450 2850 50  0001 C CNN
-	1    4450 2850
-	1    0    0    -1  
+P 4450 2950
+F 0 "J2" H 4250 3350 50  0000 L CNN
+F 1 "USB_Ser" H 4150 3250 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal" H 4450 2950 50  0001 C CNN
+F 3 "~" H 4450 2950 50  0001 C CNN
+	1    4450 2950
+	1    0    0    1   
 $EndComp
 $Comp
 L switches:SW_SPST SW2
 U 1 1 609B0195
 P 3200 2850
-F 0 "SW2" H 3550 2900 50  0000 C CNN
-F 1 "Program" H 3600 2850 50  0000 C CNN
+F 0 "SW2" H 2850 2900 50  0000 C CNN
+F 1 "Program" H 2800 2850 50  0000 C CNN
 F 2 "TrevM:SlideSwitch" H 3200 2850 50  0001 C CNN
 F 3 "~" H 3200 2850 50  0001 C CNN
 	1    3200 2850
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3400 3150 3400 2850
